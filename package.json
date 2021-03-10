@@ -1,7 +1,7 @@
 {
-  "name": "@pancakeswap/info",
+  "name": "@jetswap/info",
   "private": true,
-  "homepage": "https://pancakeswap.info",
+  "homepage": "https://jetswap.info.netlify.app",
   "dependencies": {
     "@popperjs/core": "^2.4.2",
     "@reach/portal": "^0.10.3",
