@@ -66,14 +66,14 @@ const WarningWrapper = styled.div`
   justify-content: center;
 `
 
-const WarningBanner = styled.div`
-  background-color: ${({ theme }) => theme.bg1};
-  padding: 1.5rem;
-  color: white;
-  width: 100%;
-  text-align: center;
-  font-weight: 500;
-`
+// const WarningBanner = styled.div`
+//   background-color: ${({ theme }) => theme.bg1};
+//   padding: 1.5rem;
+//   color: white;
+//   width: 100%;
+//   text-align: center;
+//   font-weight: 500;
+// `
 
 /**
  * Wrap the component with the header and sidebar pinned tab
