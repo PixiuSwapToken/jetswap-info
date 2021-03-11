@@ -109,9 +109,9 @@ function App() {
       <AppWrapper>
         {showWarning && (
           <WarningWrapper>
-            <WarningBanner>
+            {/* <WarningBanner>
               {`The data on this site has only synced to Binance Smart Chain block ${latestBlock} (out of ${headBlock}). Please check back soon.`}
-            </WarningBanner>
+            </WarningBanner> */}
           </WarningWrapper>
         )}
         {globalData &&
