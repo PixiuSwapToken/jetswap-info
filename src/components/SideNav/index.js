@@ -22,7 +22,8 @@ const Wrapper = styled.div`
   top: 0px;
   z-index: 9999;
   box-sizing: border-box;
-  background: #343434;
+
+  background: ${({ theme }) => theme.bg7};
   color: ${({ theme }) => theme.bg2};
 
   @media screen and (max-width: 800px) {
@@ -39,7 +40,7 @@ const Option = styled.div`
   font-weight: 500;
   font-size: 14px;
   opacity: ${({ activeText }) => (activeText ? 1 : 0.6)};
-  color: ${({ theme }) => theme.white};
+  color: ${({ theme }) => theme.extraText};
   display: flex;
   :hover {
     opacity: 1;
@@ -70,7 +71,7 @@ const HeaderText = styled.div`
     opacity: 1;
   }
   a {
-    color: ${({ theme }) => theme.white};
+    color: ${({ theme }) => theme.extraText};
   }
 `
 
@@ -80,7 +81,7 @@ const Polling = styled.div`
   left: 0;
   bottom: 0;
   padding: 1rem;
-  color: white;
+  color: ${({ theme }) => theme.extraText};
   opacity: 0.4;
   transition: opacity 0.25s ease;
   :hover {
@@ -100,7 +101,7 @@ const PollingDot = styled.div`
 
 function SideNav({ history }) {
   const below1080 = useMedia('(max-width: 1080px)')
-
+  
   const below1180 = useMedia('(max-width: 1180px)')
 
   const seconds = useSessionStart()
@@ -182,8 +183,8 @@ function SideNav({ history }) {
           {!below1180 && (
             <Polling style={{ marginLeft: '.5rem' }}>
               <PollingDot />
-              <a href="/" style={{ color: 'white' }}>
-                <TYPE.small color={'white'}>
+              <a href="/" style={{ color: 'extraText' }}>
+                <TYPE.small color={'extraText'}>
                   Updated {!!seconds ? seconds + 's' : '-'} ago <br />
                 </TYPE.small>
               </a>
