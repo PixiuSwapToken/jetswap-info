@@ -22,7 +22,7 @@ const theme = (darkMode, color) => ({
 
   concreteGray: darkMode ? '#292C2F' : '#fffdfa',
   inputBackground: darkMode ? '#1F1F1F' : '#fffdfa',
-  shadowColor: darkMode ? '#000' : '#2F80ED',
+  shadowColor: darkMode ? '#000' : '#FEC803',
   mercuryGray: darkMode ? '#333333' : '#E1E1E1',
 
   text1: darkMode ? '#fffdfa' : '#1F1F1F',
@@ -65,7 +65,7 @@ const theme = (darkMode, color) => ({
   secondary2: darkMode ? '#17000b26' : '#F6DDE8',
   secondary3: darkMode ? '#17000b26' : '#FDEAF1',
 
-  shadow1: darkMode ? '#000' : '#2F80ED',
+  shadow1: darkMode ? '#000' : '#FEC803',
 
   // other
   red1: '#FF6871',
