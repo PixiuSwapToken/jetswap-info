@@ -169,7 +169,7 @@ function SideNav({ history }) {
               </Link>
             </HeaderText>
             <HeaderText>
-              <Link href="#" target="_blank">
+              <Link href="https://jetfuel-finance-1.gitbook.io/jetfuel-finance/in-development/jets-swap-amm" target="_blank">
                 Docs
               </Link>
             </HeaderText>
